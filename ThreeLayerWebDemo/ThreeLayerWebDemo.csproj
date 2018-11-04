@@ -68,6 +68,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="FileUpload\b.jpg" />
     <Content Include="FileUpload\a.jpg" />
     <Content Include="FileUpload\ImageUpload.html" />
     <Content Include="FileUpload\ShowImageMaster.html" />
@@ -91,6 +92,7 @@
     <Content Include="Scripts\modernizr-2.5.3.js" />
     <Content Include="Scripts\MyAjaxForm.js" />
     <None Include="Scripts\_references.js" />
+    <Content Include="Upload\7241097c-a3f1-4cab-95c1-b652d917748adog.jpg" />
     <Content Include="Upload\a.jpg" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -110,6 +112,7 @@
     <Content Include="NewsInfo\NewsList.ashx" />
     <Content Include="FileUpload\ImgUpload.ashx" />
     <None Include="packages.config" />
+    <Content Include="Upload\9e2e9590-421e-4d1f-90a9-1ce405ba10d5" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
