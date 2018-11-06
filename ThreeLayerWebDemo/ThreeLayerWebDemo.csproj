@@ -70,11 +70,14 @@
   <ItemGroup>
     <Content Include="FileUpload\b.jpg" />
     <Content Include="FileUpload\a.jpg" />
+    <Content Include="FileUpload\ImageProcess.html" />
     <Content Include="FileUpload\ImageUpload.html" />
     <Content Include="FileUpload\ShowImageMaster.html" />
     <Content Include="NewsInfo\NewsListTemp.html" />
     <Content Include="Scripts\datapattern.js" />
     <Content Include="FileUpload\ShowImageHandler.ashx" />
+    <Content Include="FileUpload\ImageProcess.ashx" />
+    <Content Include="FileUpload\ImageSmallHandel.ashx" />
     <None Include="Scripts\jquery-1.7.1.intellisense.js" />
     <Content Include="Scripts\jquery-1.7.1.js" />
     <Content Include="Scripts\jquery-1.7.1.min.js" />
@@ -97,6 +100,12 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FileUpload\ImageProcess.ashx.cs">
+      <DependentUpon>ImageProcess.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="FileUpload\ImageSmallHandel.ashx.cs">
+      <DependentUpon>ImageSmallHandel.ashx</DependentUpon>
+    </Compile>
     <Compile Include="FileUpload\ImgUpload.ashx.cs">
       <DependentUpon>ImgUpload.ashx</DependentUpon>
     </Compile>
@@ -124,6 +133,10 @@
     <ProjectReference Include="..\Lz.Web.Bll\Lz.Web.Bll.csproj">
       <Project>{2da36112-1735-4e1b-8c8e-d0da42b6d99f}</Project>
       <Name>Lz.Web.Bll</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Lz.Web.Common\Lz.Web.Common.csproj">
+      <Project>{5d2fc7d1-848a-4835-a7a2-18c02303ee5b}</Project>
+      <Name>Lz.Web.Common</Name>
     </ProjectReference>
     <ProjectReference Include="..\Lz.Web.Model\Lz.Web.Model.csproj">
       <Project>{14a31425-e913-4250-b5ea-c49b8e2ae52f}</Project>

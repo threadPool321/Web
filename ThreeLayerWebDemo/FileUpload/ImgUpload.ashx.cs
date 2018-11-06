@@ -11,6 +11,7 @@ namespace ThreeLayerWebDemo.FileUpload
     /// </summary>
     public class ImgUpload : IHttpHandler
     {
+        //图片处理上传的
 
         public void ProcessRequest(HttpContext context)
         {
