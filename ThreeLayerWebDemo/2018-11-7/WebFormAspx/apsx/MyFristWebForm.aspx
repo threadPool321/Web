@@ -80,7 +80,7 @@
                     <ul class="list_news">                        
                         <%foreach (var item in this.NewLists)
                             {%>
-                        <li><span><%=item.Date %></span><a href="Shownews.html" target="_blank"><%=item.title %></a></li>
+                        <li><span><%=item.Date %></span><a href="ShowDetail.aspx?id=<%=item.ID %>" target="_blank"><%=item.title %></a></li>
                         <%} %>
                     </ul>
                     <div class="pages">首页  |  前页  |  后页 | 尾页         页次：1/3页 </div>
