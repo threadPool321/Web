@@ -40,8 +40,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="HKSJ_Clients.cs" />
+    <Compile Include="HKSJ_Employees.cs" />
+    <Compile Include="HKSJ_First.cs" />
+    <Compile Include="HKSJ_Main.cs" />
+    <Compile Include="HKSJ_Relationship.cs" />
+    <Compile Include="HKSJ_USERS.cs" />
     <Compile Include="NewsInfo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SysNode.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

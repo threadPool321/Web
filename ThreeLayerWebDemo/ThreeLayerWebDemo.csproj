@@ -68,16 +68,96 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="2018-11-7\WebFormAspx\flash\main_fla.swf" />
+    <Content Include="2018-11-7\WebFormAspx\flash\sub_fla.swf" />
+    <Content Include="2018-11-7\WebFormAspx\Html\News.html" />
+    <Content Include="2018-11-7\WebFormAspx\Html\Shownews.html" />
+    <Content Include="2018-11-7\WebFormAspx\images\bg_a_list_prd_dt.png" />
+    <Content Include="2018-11-7\WebFormAspx\images\bg_body.png" />
+    <Content Include="2018-11-7\WebFormAspx\images\bg_body_column.png" />
+    <Content Include="2018-11-7\WebFormAspx\images\bg_dotlightblue.gif" />
+    <Content Include="2018-11-7\WebFormAspx\images\bg_footer_column.png" />
+    <Content Include="2018-11-7\WebFormAspx\images\bg_header_Client.jpg" />
+    <Content Include="2018-11-7\WebFormAspx\images\bg_header_company.jpg" />
+    <Content Include="2018-11-7\WebFormAspx\images\bg_header_Contact.jpg" />
+    <Content Include="2018-11-7\WebFormAspx\images\bg_header_Employment.jpg" />
+    <Content Include="2018-11-7\WebFormAspx\images\bg_header_News.jpg" />
+    <Content Include="2018-11-7\WebFormAspx\images\bg_header_Product.jpg" />
+    <Content Include="2018-11-7\WebFormAspx\images\bg_header_Service.jpg" />
+    <Content Include="2018-11-7\WebFormAspx\images\bg_main_column.gif" />
+    <Content Include="2018-11-7\WebFormAspx\images\bg_position.png" />
+    <Content Include="2018-11-7\WebFormAspx\images\bg_position_product.png" />
+    <Content Include="2018-11-7\WebFormAspx\images\bg_title_column.png" />
+    <Content Include="2018-11-7\WebFormAspx\images\bg_wrap_index.jpg" />
+    <Content Include="2018-11-7\WebFormAspx\images\icon_dot_blue.png" />
+    <Content Include="2018-11-7\WebFormAspx\images\icon_dot_gray.gif" />
+    <Content Include="2018-11-7\WebFormAspx\images\icon_drgegray.png" />
+    <Content Include="2018-11-7\WebFormAspx\images\img_contact_sidebarcolumn.png" />
+    <Content Include="2018-11-7\WebFormAspx\images\img_copyright_column.png" />
+    <Content Include="2018-11-7\WebFormAspx\images\img_copyright_index.png" />
+    <Content Include="2018-11-7\WebFormAspx\images\img_prd_HousingSecurity.jpg" />
+    <Content Include="2018-11-7\WebFormAspx\images\img_prd_MaintenanceFunds.jpg" />
+    <Content Include="2018-11-7\WebFormAspx\images\img_prd_Mapping.jpg" />
+    <Content Include="2018-11-7\WebFormAspx\images\img_prd_NewHouse.jpg" />
+    <Content Include="2018-11-7\WebFormAspx\images\img_prd_Practitioners.jpg" />
+    <Content Include="2018-11-7\WebFormAspx\images\img_prd_ProjectManagement.jpg" />
+    <Content Include="2018-11-7\WebFormAspx\images\img_prd_Property.jpg" />
+    <Content Include="2018-11-7\WebFormAspx\images\img_prd_Statistics.jpg" />
+    <Content Include="2018-11-7\WebFormAspx\images\img_prd_StockHouse.jpg" />
+    <Content Include="2018-11-7\WebFormAspx\images\img_prd_Transaction.jpg" />
+    <Content Include="2018-11-7\WebFormAspx\images\Login\login_bg.jpg" />
+    <Content Include="2018-11-7\WebFormAspx\images\Login\login_img.jpg" />
+    <Content Include="2018-11-7\WebFormAspx\images\Login\login_leftbg.jpg" />
+    <Content Include="2018-11-7\WebFormAspx\images\Login\login_line.jpg" />
+    <Content Include="2018-11-7\WebFormAspx\images\Login\login_menu2.jpg" />
+    <Content Include="2018-11-7\WebFormAspx\images\Login\login_rigbg.jpg" />
+    <Content Include="2018-11-7\WebFormAspx\images\Login\login_tit.jpg" />
+    <Content Include="2018-11-7\WebFormAspx\images\Login\style.css" />
+    <Content Include="2018-11-7\WebFormAspx\images\Login\ValidateCode.aspx" />
+    <Content Include="2018-11-7\WebFormAspx\images\logo.png" />
+    <Content Include="2018-11-7\WebFormAspx\images\nav_column.png" />
+    <Content Include="2018-11-7\WebFormAspx\images\nav_index.png" />
+    <Content Include="2018-11-7\WebFormAspx\images\top-2.gif" />
+    <Content Include="2018-11-7\WebFormAspx\apsx\MyFristWebForm.aspx" />
+    <Content Include="2018-11-7\WebFormAspx\style\CommonStyle.css" />
+    <Content Include="2018-11-7\WebFormAspx\style\NavPager.css" />
+    <Content Include="2018-11-7\WebFormAspx\style\pageStyle.css" />
+    <Content Include="2018-11-7\WebFormAspx\style\style.css" />
+    <Content Include="2018-11-7\WebFormAspx\style\tableStyle.css" />
+    <Content Include="favicon.ico" />
+    <Content Include="FileDownLoad\htmlDownLoad.html" />
     <Content Include="FileUpload\b.jpg" />
     <Content Include="FileUpload\a.jpg" />
     <Content Include="FileUpload\ImageProcess.html" />
     <Content Include="FileUpload\ImageUpload.html" />
     <Content Include="FileUpload\ShowImageMaster.html" />
+    <Content Include="Lib\COM.Excel.dll" />
+    <Content Include="Lib\Excel.dll" />
+    <Content Include="Lib\IBatisNet.Common.dll" />
+    <Content Include="Lib\IBatisNet.DataMapper.dll" />
+    <Content Include="Lib\LTP.Accounts.dll" />
+    <Content Include="Lib\LTP.Accounts.txt" />
+    <Content Include="Lib\LtpPageControl.dll" />
+    <Content Include="Lib\Microsoft.Practices.EnterpriseLibrary.Common.dll" />
+    <Content Include="Lib\Microsoft.Practices.EnterpriseLibrary.Data.dll" />
+    <Content Include="Lib\Microsoft.Web.UI.WebControls.dll" />
+    <Content Include="Lib\MySql.Data.dll" />
+    <Content Include="Lib\OpenSmtp.dll" />
+    <Content Include="Lib\OWC10Chart.dll" />
+    <Content Include="Lib\RazorEngine.dll" />
+    <Content Include="Lib\RazorEngine.pdb" />
+    <Content Include="Lib\System.Data.SQLite.DLL" />
+    <Content Include="Lib\WebDemo.Common.dll" />
+    <Content Include="Lib\WebDemo.Common.pdb" />
+    <Content Include="Lib\WebDemo.Common.XML" />
     <Content Include="NewsInfo\NewsListTemp.html" />
     <Content Include="Scripts\datapattern.js" />
     <Content Include="FileUpload\ShowImageHandler.ashx" />
     <Content Include="FileUpload\ImageProcess.ashx" />
     <Content Include="FileUpload\ImageSmallHandel.ashx" />
+    <Content Include="FileDownLoad\FileDownLoadHandeler.ashx" />
+    <Content Include="Lib\System.Data.SQLite.lib" />
+    <Content Include="2018-11-7\WebFormAspx\images\vssver2.scc" />
     <None Include="Scripts\jquery-1.7.1.intellisense.js" />
     <Content Include="Scripts\jquery-1.7.1.js" />
     <Content Include="Scripts\jquery-1.7.1.min.js" />
@@ -97,9 +177,20 @@
     <None Include="Scripts\_references.js" />
     <Content Include="Upload\7241097c-a3f1-4cab-95c1-b652d917748adog.jpg" />
     <Content Include="Upload\a.jpg" />
+    <Content Include="ValidateCode\ValidateCode.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="2018-11-7\WebFormAspx\apsx\MyFristWebForm.aspx.cs">
+      <DependentUpon>MyFristWebForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="2018-11-7\WebFormAspx\apsx\MyFristWebForm.aspx.designer.cs">
+      <DependentUpon>MyFristWebForm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FileDownLoad\FileDownLoadHandeler.ashx.cs">
+      <DependentUpon>FileDownLoadHandeler.ashx</DependentUpon>
+    </Compile>
     <Compile Include="FileUpload\ImageProcess.ashx.cs">
       <DependentUpon>ImageProcess.ashx</DependentUpon>
     </Compile>
@@ -116,12 +207,16 @@
       <DependentUpon>NewsList.ashx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ValidateCode\ValidateCodeHandeler.ashx.cs">
+      <DependentUpon>ValidateCodeHandeler.ashx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="NewsInfo\NewsList.ashx" />
     <Content Include="FileUpload\ImgUpload.ashx" />
     <None Include="packages.config" />
     <Content Include="Upload\9e2e9590-421e-4d1f-90a9-1ce405ba10d5" />
+    <Content Include="ValidateCode\ValidateCodeHandeler.ashx" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

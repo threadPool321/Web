@@ -41,11 +41,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="HKSJ_Clients.cs" />
+    <Compile Include="HKSJ_Employees.cs" />
+    <Compile Include="HKSJ_First.cs" />
+    <Compile Include="HKSJ_Main.cs" />
+    <Compile Include="HKSJ_Relationship.cs" />
+    <Compile Include="HKSJ_USERS.cs" />
     <Compile Include="NewsInfoDal.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SqlHelper.cs" />
+    <Compile Include="SysManage.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\DBUtility\Lz.Web.DBUtility.csproj">
+      <Project>{0988c62e-247f-471f-a183-db509c7a3839}</Project>
+      <Name>Lz.Web.DBUtility</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Lz.Web.Model\Lz.Web.Model.csproj">
       <Project>{14a31425-e913-4250-b5ea-c49b8e2ae52f}</Project>
       <Name>Lz.Web.Model</Name>
